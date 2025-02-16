@@ -4,6 +4,6 @@ on:
 
 jobs:
  Explore-GitHub-Actions:
-   runs-on: upcloud-arc-runner-set
+   runs-on: example-runnerdeploy-m8jd6-r8656
    steps:
    - run: echo "🎉 This job uses runner scale set at UpCloud!"
