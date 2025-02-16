@@ -1,0 +1,9 @@
+name: UpCloud x Github Actions Runner Controller Demo
+on:
+ workflow_dispatch:
+
+jobs:
+ Explore-GitHub-Actions:
+   runs-on: upcloud-arc-runner-set
+   steps:
+   - run: echo "🎉 This job uses runner scale set at UpCloud!"
