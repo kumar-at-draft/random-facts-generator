@@ -1,0 +1,23 @@
+{
+  "name": "example-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "pm2 start index.js",
+    "stop:prod": "pm2 stop index",
+    "restart:prod": "pm2 restart index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "pm2": "^5.4.3"
+  }
+}
