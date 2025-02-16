@@ -4,6 +4,6 @@ on:
 
 jobs:
  Explore-GitHub-Actions:
-   runs-on: example-runnerdeploy-m8jd6-r8656
+   runs-on: actions-runner-controller
    steps:
    - run: echo "🎉 This job uses runner scale set at UpCloud!"
