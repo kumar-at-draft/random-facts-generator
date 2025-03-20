@@ -4,7 +4,7 @@ on:
 
 jobs:
   Test-Runner:
-    runs-on: arc-runner-set-new
+    runs-on: arc-runner-set
     steps:
       - run: sleep 3600 && echo "🎉 Self-hosted runner is up and running!"
       - run: kubectl --version
