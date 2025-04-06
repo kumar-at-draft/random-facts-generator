@@ -6,4 +6,4 @@ jobs:
   Test-Runner:
     runs-on: arc-runner-set
     steps:
-      - run: kubectl version --client --output=yaml
+      - run: sleep 3600
